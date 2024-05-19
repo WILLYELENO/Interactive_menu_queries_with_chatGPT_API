@@ -3,12 +3,11 @@ from openai import OpenAI
 client = OpenAI(
     api_key = config.api_key
 )
-
 #Lista de Mensajes y Roles
 messages = [
             {"role": "system", "content": "Eres un asistente cordial y prestativo"} 
           ]
-#Solicitud del usuario al asistente
+#Solicitud del usuario 
 input_message = input ("Esperando tu pregunta: ")
 
 #Adicionamos el input a la lista messages

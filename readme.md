@@ -1,6 +1,7 @@
 # Interactive Menu Queries with ChatGPT API and Python
 
 Creación de un sistema Python, utilizando la API  de ChatGPT de OpenAI. Usaré la API (Interfaz de Programación de Aplicaciones) para construir un asistente capaz de generar respuestas inteligentes basadas en un contexto proporcionado.
+Se utilizó el modelo de inteligencia artificial conversacional gpt-3.5-turbo 
 
 
 ## Instalación

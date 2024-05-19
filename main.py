@@ -39,6 +39,8 @@ while input_message != "fin":
   print("role: ", role) 
   print ("Respuesta:",response.choices[0].message.content)
 
+  #Tener en cuenta que choices es un array, ya que puede tener mas de una respuesta para la pregunta del usuario
+
   #Solicitamos al usuario un nuevo ingreso
   input_message = input ("Esperando tu pregunta: ")
 

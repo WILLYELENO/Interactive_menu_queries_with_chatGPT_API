@@ -1,0 +1,4 @@
+# Archivos de sistema
+*.pyc
+__pycache__/
+config.py
